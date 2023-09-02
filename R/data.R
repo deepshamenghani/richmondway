@@ -1,0 +1,29 @@
+#' Data to showcase f-ck count
+#'
+#' A dataset containing the number of times the word f-ck was used in Ted Lasso by Roy Kent.
+#'
+#' @format A data frame with 34 rows and 16 columns.
+#'  \describe{
+#'    \item{Character}{Single value - Roy Kent}
+#'    \item{Episode_order}{The order of episodes from the 1st to the last}
+#'    \item{Season}{The season 1,2 or 3 associated with the count}
+#'    \item{Episode}{The episode within the season associated with the count}
+#'    \item{Season_Episode}{Season and episode as a combined variable}
+#'    \item{F_count_RK}{Roy Kent's F-ck count in that season and episode}
+#'    \item{F_count_total}{Total F-ck count by all characters combined including Roy Kent in that season and episode}
+#'    \item{cum_rk_season}{Roy Kent's cumulative F-ck count within that season}
+#'    \item{cum_total_season}{Cumulative total F-ck count by all characters combined including Roy Kent within that season}
+#'    \item{cum_rk_overall}{Roy Kent's cumulative F-ck count across all episodes and seasons until that episode}
+#'    \item{cum_total_overall}{Cumulative total F-ck count by all characters combined including Roy Kent across all episodes and seasons until that episode}
+#'    \item{F_score}{Roy Kent's F-count divided by the total F-count in the episode}
+#'    \item{F_perc}{F-score as percentage}
+#'    \item{Dating_flag}{Flag of yes or no for Whether during the episode Roy Kent was dating the characted Keeley}
+#'    \item{Coaching_flag}{Flag of yes or no for Whether during the episode Roy Kent was coaching the team}
+#'    \item{Imdb_rating}{Imdb rating of that episode}
+#'  }
+#'
+#' @source Created by Deepsha Menghani by watching the show and counting the number of F-cks used in sentences and as gestures
+#'
+#' @examples
+#' data(richmondway)
+"richmondway"

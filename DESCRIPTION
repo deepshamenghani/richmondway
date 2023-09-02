@@ -1,0 +1,13 @@
+Package: richmondway
+Title: A dataset containing the number of times the word f*ck was used in Ted Lasso by Roy Kent
+Version: 0.0.0.9000
+Authors@R: 
+    person("Deepsha", "Menghani", email = "deepshamenghani07@gmail.com", role = c("aut", "cre"))
+Description: Downloads the dataset containing the number of times the word f*ck was used in Ted Lasso by Roy Kent.
+License: file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
