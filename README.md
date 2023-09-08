@@ -1,6 +1,9 @@
 # richmondway
 A dataset containing the number of times the word f*ck was used in Ted Lasso by Roy Kent
 
+![richmondway](https://github.com/deepshamenghani/richmondway/assets/46545400/b57862de-e9fe-4c5b-b597-cfb24d44a90b)
+
+
 # Package installation
 devtools::install_github("deepshamenghani/richmondway") 
 
